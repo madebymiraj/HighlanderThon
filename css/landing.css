@@ -1,0 +1,126 @@
+html,body {
+  height:100%;
+  background: #f3734c;
+  background: -moz-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #f3734c), color-stop(34%, #f15f54), color-stop(100%, #ee3763));
+  background: -webkit-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+  background: -o-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+  background: -ms-linear-gradient(-45deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+  background: linear-gradient(135deg, #f3734c 0%, #f15f54 34%, #ee3763 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3734c', endColorstr='#ee3763', GradientType=1 );
+  color: #FFFFFF;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #2b2b2b;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #2b2b2b;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #2b2b2b;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #2b2b2b;  
+}
+
+.logo {
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+
+.form-control {
+  border-radius: 0px;
+  font-size: 36px;
+  height: 75px;
+  background: transparent;
+  border: none;
+}
+
+.form-control:focus{
+  border: none;
+  box-shadow: none;
+  color: #f3734c;
+  font-weight: bold;
+}
+
+.btn-default{
+  border-radius: 0px;
+  background-color: #ee3763;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.social-btn {
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.social-btn:focus{
+  color: #FFFFFF;
+}
+
+.btn-facebook:hover{
+  background: #3B5998;
+  color: #FFFFFF;
+}
+
+.btn-twitter:hover{
+  background: #55ACEE;
+  color: #FFFFFF;
+}
+
+.social-butt{
+  margin-top: 30px;
+}
+
+.btn-instagram:hover{
+  background: #a97c5e;
+  color: #FFFFFF;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+  outline: none;
+  outline-offset: none;
+}
+
+.btn-default:focus, .btn-default:hover{
+  background-color: #f3734c;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+}
+
+.subscribe{
+  position: absolute;
+  bottom: 0;
+  background: #FFFFFF;
+  height: 275px;
+  width: 100%;
+}
+
+.social{
+  background-color: #2b2b2b;
+  width: 100%;
+}
+
+.social img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
