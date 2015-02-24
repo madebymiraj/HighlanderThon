@@ -258,6 +258,18 @@ section{
   background-position: top left;
 }
 
+.para8{
+  background: url(../img/minithon.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.well{
+  margin-top: 5px;
+  background: #FFFFFF;
+}
+
 blockquote{
 	border-left: 5px solid #ee3763;
 }
